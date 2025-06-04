@@ -9,6 +9,13 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Placeholder(child: Text('Hello World')));
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: Scaffold(
+        appBar: AppBar(title: Text('Flutter Demo Home Page')),
+        body: Center(child: Text('Hello World')),
+      ),
+    );
   }
 }
