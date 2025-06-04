@@ -16,6 +16,12 @@ Iremos consumir o seu serviço de sugestões [Sua API](http://localhost:9000/ope
 flutter create --project-name=tp2_suggestionbox_mobile --org=br.gov.sp.fatecararas --platforms=web,android tp2_suggestionbox_mobile
 ```
 
+## Abra seu projeto no VSCode
+
+```shell
+code tp2_suggestionbox_mobile/
+```
+
 ## Incluindo as dependencias
 
 Iremos utilizar alguns pacotes de terceiros que irão facilitar o nosso desenvolvimento.
@@ -47,8 +53,3 @@ analyzer:
     - "**/*.freezed.dart"
 ``` 
 
-## Abra seu projeto no VSCode
-
-```shell
-code tp2_suggestionbox_mobile/
-```
